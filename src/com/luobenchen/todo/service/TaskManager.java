@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class TaskManager {
-    private List<Task> tasks;
+    private final List<Task> tasks;
     private final Storage storage;
     private final AtomicInteger nextId; // 线程安全的ID生成器
 
