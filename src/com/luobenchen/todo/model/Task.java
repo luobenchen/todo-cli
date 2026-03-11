@@ -16,7 +16,6 @@ public class Task implements Serializable {
     }*/
     @Serial//：明确该字段是用于序列化版本控制的
     private static final long serialVersionUID = 1L;
-    //todo的属性
     private int id;//任务编号
     private String title;//任务标题
     private String description;//任务详细描述
