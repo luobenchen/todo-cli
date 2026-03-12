@@ -54,7 +54,9 @@ public class Task implements Serializable {
     public String toString() {
         return String.format("[%d] %s %s (创建于 %s)%s",
                 id,
-                completed ? "[✓]" : "[×]",
+                //completed ? "[✓]" : "[×]",//idea中编码使用Unicode编码，cmd中使用gbk编码，会导致输入错误
+                //completed ? "[\u2713]" : "[\u2717]",//这样也不行，不兼容
+                completed ? "[√]" : "[×]",//这里换用类似符号 为GBK 字符集中存在的符号，数学符号 √ (U+221A) 和 × (U+00D7)，
                 title,
                 createdAt.toString().substring(0, 19).replace('T', ' '),//截取时间，并使输出更加美观
                 description != null && !description.isEmpty() ? "\n    描述: " + description : "");//检查描述字段既不是 null，也不是空字符串
