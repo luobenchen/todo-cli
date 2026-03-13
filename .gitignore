@@ -30,3 +30,8 @@ bin/
 .DS_Store
 
 .idea/artifacts/
+
+target/
+.idea/
+*.iml
+tasks.dat

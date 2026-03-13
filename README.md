@@ -15,7 +15,7 @@
 最终展示
 
 ```
-PS C:\LJS\java\todo-cli\out\artifacts\todo_cli_jar> java -jar todo-cli.jar
+C:\LJS\java\todo-cli\out\artifacts\todo_cli_jar>java -jar todo-cli.jar
 欢迎使用TODO管理器！
 
 可用命令：
@@ -26,29 +26,24 @@ PS C:\LJS\java\todo-cli\out\artifacts\todo_cli_jar> java -jar todo-cli.jar
   help                - 显示此帮助
   exit                - 退出程序
 
-请输入命令: add jar包测试
-任务已添加，ID = 1
+请输入命令: 1
+未知命令，输入 help 查看帮助
 
-请输入命令: list
-当前任务列表：
-[1] [×] jar包测试 (创建于 2026-03-12 17:51:50)
+请输入命令: add testnight1
+任务已添加，ID = 7
 
-请输入命令: done 1
-任务 1 已完成！
-
-请输入命令: add test over
-任务已添加，ID = 2
-
-请输入命令: done 2
-任务 2 已完成！
+请输入命令: done 7
+任务 7 已完成！
 
 请输入命令: ls
 当前任务列表：
-[1] [?] jar包测试 (创建于 2026-03-12 17:51:50)
-[2] [?] test over (创建于 2026-03-12 17:52:14)
+[4] [√] test (创建于 2026-03-12 18:05:48)
+[5] [×] test (创建于 2026-03-12 18:06:40)
+[6] [√] test3 (创建于 2026-03-12 18:13:47)
+[7] [√] testnight1 (创建于 2026-03-12 20:45:17)
 
 请输入命令: exit
 再见！
-PS C:\LJS\java\todo-cli\out\artifacts\todo_cli_jar> 
 
+C:\LJS\java\todo-cli\out\artifacts\todo_cli_jar>
 ```

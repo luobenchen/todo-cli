@@ -108,7 +108,7 @@ public class Main {
     private static void printHelp() {
         System.out.println("\n可用命令：");
         System.out.println("  add [标题]          - 添加新任务，如果不带标题则交互输入");
-        System.out.println("  list/ls            - 显示所有任务");
+        System.out.println("  list/ls             - 显示所有任务");
         System.out.println("  done <任务ID>       - 标记任务为已完成");
         System.out.println("  delete <任务ID>     - 删除任务");
         System.out.println("  help                - 显示此帮助");
